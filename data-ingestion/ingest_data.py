@@ -59,7 +59,7 @@ def main(params):
             break
 
 if __name__ == '__main__':
-    # Parse the command line arguments and calls the main program
+    # parse the command line arguments and calls the main program
     parser = argparse.ArgumentParser(description='Ingest CSV data to Postgres')
 
     parser.add_argument('--user', help='user name for postgres')
