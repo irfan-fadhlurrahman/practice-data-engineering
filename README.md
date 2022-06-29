@@ -1,5 +1,5 @@
 # Data Engineering
-This repo is to store the code and learning material that I have studied. 
+This repo is to store the code and learning material that I have studied about data engineering. 
 
 **OS**: Ubuntu 18.04 | **Tools**: Python 3.9, Airflow, PostgreSQL, Docker
 
