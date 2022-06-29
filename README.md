@@ -1,21 +1,14 @@
 # Data Engineering
 This repo is to store the code and learning material that I have studied. 
 
-**OS**: Ubuntu 18.04
+**OS**: Ubuntu 18.04 | **Tools**: Python 3.9, Airflow, PostgreSQL, Docker
 
-**Tools**:
-* Python 3.9.x
-* PostgreSQL: relational databases
-* Docker: container to host relational databases
-* Airflow: data pipeline orchestration
+## [Data Pipeline]()
+1. Create a simple data pipeline to extract the datetime from terminal, preprocess the returned datetime string, and save the preprocessed datetime to a CSV file.
+2. Use Airflow to connect and run each task automatically.
 
-Dataset: [NYC Taxi Tripdata](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-* [January 2021](https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.parquet)
+## [Data Ingestion]()
+1. Host a postgres database in the Docker container
+2. Preprocess the parquet file ([NYC Taxi Tripdata, January 2021](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page))
+3. Upload the preprocessed data to postgres database 
 
-Task 1: Create database
-
-1.1. Host postgres database on docker
-
-1.2. Build connection from python to postgres
-
-1.3. Upload parquet file to postgres database
