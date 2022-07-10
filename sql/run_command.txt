@@ -1,0 +1,13 @@
+task:
+    Ingest the raw Parquet data to Postgres database by using Python
+file: 
+    ingest_raw_data.py
+command:
+    python ingest_raw_data.py \
+        --user=root \
+        --password=root \
+        --host=localhost \
+        --port=5432 \
+        --db=ny_taxi \
+        --file_path=../yellow_tripdata_2021-01.parquet \
+        --table_name=yellow_taxi_data
