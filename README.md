@@ -49,6 +49,6 @@ There are two folders for this project, [data-ingestion](https://github.com/irfa
 * run_command.txt: command to upload the dataset to the temporary database.
 
 
-## [Data Pipeline](https://github.com/irfan-fadhlurrahman/practice-data-engineering/tree/main/airflow-dag)
+## Workflow Scheduling
 1. Create a simple data pipeline to extract the datetime from terminal, preprocess the returned datetime string, and save the preprocessed datetime to a CSV file.
 2. Use Airflow to connect and run each task automatically.
